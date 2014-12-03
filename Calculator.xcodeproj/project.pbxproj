@@ -10,9 +10,10 @@
 		A6E663301A2F364400EAA470 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E6632F1A2F364400EAA470 /* AppDelegate.m */; };
 		A6E663321A2F364400EAA470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E663311A2F364400EAA470 /* main.m */; };
 		A6E663351A2F364400EAA470 /* Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6E663331A2F364400EAA470 /* Calculator.xcdatamodeld */; };
-		A6E663371A2F364400EAA470 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E663361A2F364400EAA470 /* Images.xcassets */; };
 		A6E6633A1A2F364400EAA470 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6E663381A2F364400EAA470 /* MainMenu.xib */; };
 		A6E663461A2F364400EAA470 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E663451A2F364400EAA470 /* CalculatorTests.m */; };
+		A6E6635A1A2F471D00EAA470 /* CalculatorWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E663591A2F471D00EAA470 /* CalculatorWindow.m */; };
+		A6E663621A2F5F7700EAA470 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E663611A2F5F7700EAA470 /* Image.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,11 +33,13 @@
 		A6E6632F1A2F364400EAA470 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A6E663311A2F364400EAA470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6E663341A2F364400EAA470 /* Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calculator.xcdatamodel; sourceTree = "<group>"; };
-		A6E663361A2F364400EAA470 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A6E663391A2F364400EAA470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A6E6633F1A2F364400EAA470 /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E663441A2F364400EAA470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6E663451A2F364400EAA470 /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		A6E663581A2F471D00EAA470 /* CalculatorWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorWindow.h; sourceTree = "<group>"; };
+		A6E663591A2F471D00EAA470 /* CalculatorWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorWindow.m; sourceTree = "<group>"; };
+		A6E663611A2F5F7700EAA470 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +83,12 @@
 			children = (
 				A6E6632E1A2F364400EAA470 /* AppDelegate.h */,
 				A6E6632F1A2F364400EAA470 /* AppDelegate.m */,
-				A6E663361A2F364400EAA470 /* Images.xcassets */,
+				A6E663611A2F5F7700EAA470 /* Image.xcassets */,
 				A6E663381A2F364400EAA470 /* MainMenu.xib */,
 				A6E663331A2F364400EAA470 /* Calculator.xcdatamodeld */,
 				A6E6632C1A2F364400EAA470 /* Supporting Files */,
+				A6E663581A2F471D00EAA470 /* CalculatorWindow.h */,
+				A6E663591A2F471D00EAA470 /* CalculatorWindow.m */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -194,8 +199,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6E663371A2F364400EAA470 /* Images.xcassets in Resources */,
 				A6E6633A1A2F364400EAA470 /* MainMenu.xib in Resources */,
+				A6E663621A2F5F7700EAA470 /* Image.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E6635A1A2F471D00EAA470 /* CalculatorWindow.m in Sources */,
 				A6E663321A2F364400EAA470 /* main.m in Sources */,
 				A6E663301A2F364400EAA470 /* AppDelegate.m in Sources */,
 				A6E663351A2F364400EAA470 /* Calculator.xcdatamodeld in Sources */,

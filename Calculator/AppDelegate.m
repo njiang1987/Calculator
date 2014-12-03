@@ -7,10 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "CalculatorWindow.h"
 
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
+@property (weak) IBOutlet CalculatorWindow *window;
 - (IBAction)saveAction:(id)sender;
 
 @end
