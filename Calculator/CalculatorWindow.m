@@ -115,7 +115,7 @@ const static CGFloat kPercent682 = 0.682;
         return @"";
     }
     
-    CGFloat percent = (iValue - lStart) / lStart;
+    CGFloat percent = (iValue - lStart) / lStart * 100;
     if (percent > 0) {
         return [NSString stringWithFormat:@"+%.2f", percent];
     }
