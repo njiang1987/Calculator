@@ -18,6 +18,9 @@ const static CGFloat kPercent682 = 0.682;
 @property (weak) IBOutlet NSTextField *minTextField;
 @property (weak) IBOutlet NSTextField *maxTextField;
 
+@property (weak) IBOutlet NSTextField *rangeTextField;
+
+
 @property (weak) IBOutlet NSTextField *higher191;
 @property (weak) IBOutlet NSTextField *higher238;
 @property (weak) IBOutlet NSTextField *higher500;
@@ -61,12 +64,14 @@ const static CGFloat kPercent682 = 0.682;
     [self setHighToLowGroupValueMin:lMin max:lMax];
     [self setLowToHighGroupValueMin:lMin max:lMax];
     [self setLowerGroupValueMin:lMin max:lMax];
+    [self.rangeTextField setStringValue:[NSString stringWithFormat:@"%.f", lMax - lMin]];
 }
 
 - (void)clear
 {
     [self.minTextField setStringValue:@"0"];
     [self.maxTextField setStringValue:@"0"];
+    [self.rangeTextField setStringValue:@"0"];
     
     [self setHigherGroupValueMin:0 max:0];
     [self setHighToLowGroupValueMin:0 max:0];
