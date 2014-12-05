@@ -670,7 +670,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="519" height="412"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1177"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
             <value key="minSize" type="size" width="519" height="412"/>
             <value key="maxSize" type="size" width="519" height="412"/>
             <view key="contentView" id="EiT-Mj-1SZ">
@@ -1239,7 +1239,7 @@
                 <outlet property="rangeTextField" destination="aKQ-qY-FcY" id="DOS-A3-dPs"/>
                 <outlet property="startTextField" destination="Uww-UA-9SE" id="Cww-KJ-3ca"/>
             </connections>
-            <point key="canvasLocation" x="217" y="532.5"/>
+            <point key="canvasLocation" x="243.5" y="338"/>
         </window>
     </objects>
 </document>
