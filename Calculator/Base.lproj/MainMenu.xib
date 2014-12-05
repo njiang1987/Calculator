@@ -57,7 +57,7 @@
                             <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
                             <menuItem title="Quit Calculator" keyEquivalent="q" id="4sb-4s-VLi">
                                 <connections>
-                                    <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
+                                    <action selector="performClose:" target="QvC-M9-y7g" id="u62-5K-0wO"/>
                                 </connections>
                             </menuItem>
                         </items>
@@ -1058,7 +1058,6 @@
                 </subviews>
             </view>
             <connections>
-                <outlet property="high682" destination="ric-ZL-83l" id="fwc-vJ-s5J"/>
                 <outlet property="highToLow191" destination="jXa-Da-8u0" id="qFU-eH-2w4"/>
                 <outlet property="highToLow238" destination="2K4-Lg-AnO" id="uaa-2V-pgJ"/>
                 <outlet property="highToLow500" destination="4Ib-xX-DjK" id="IWG-bJ-d9R"/>
@@ -1079,7 +1078,7 @@
                 <outlet property="minTextField" destination="MFo-cJ-pI3" id="2xX-z1-meK"/>
                 <outlet property="rangeTextField" destination="67u-Rk-vIQ" id="dEG-hU-g91"/>
             </connections>
-            <point key="canvasLocation" x="224" y="335.5"/>
+            <point key="canvasLocation" x="217" y="532.5"/>
         </window>
     </objects>
 </document>
