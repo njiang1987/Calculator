@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CAB72521A303560003426D4 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAB72501A303560003426D4 /* MasterViewController.m */; };
-		9CAB72531A303561003426D4 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CAB72511A303560003426D4 /* MasterViewController.xib */; };
 		A6E663301A2F364400EAA470 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E6632F1A2F364400EAA470 /* AppDelegate.m */; };
 		A6E663321A2F364400EAA470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E663311A2F364400EAA470 /* main.m */; };
 		A6E663351A2F364400EAA470 /* Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6E663331A2F364400EAA470 /* Calculator.xcdatamodeld */; };
@@ -29,9 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9CAB724F1A303560003426D4 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		9CAB72501A303560003426D4 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		9CAB72511A303560003426D4 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 		A6E663291A2F364400EAA470 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E6632D1A2F364400EAA470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6E6632E1A2F364400EAA470 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,9 +89,6 @@
 				A6E6632C1A2F364400EAA470 /* Supporting Files */,
 				A6E663581A2F471D00EAA470 /* CalculatorWindow.h */,
 				A6E663591A2F471D00EAA470 /* CalculatorWindow.m */,
-				9CAB724F1A303560003426D4 /* MasterViewController.h */,
-				9CAB72501A303560003426D4 /* MasterViewController.m */,
-				9CAB72511A303560003426D4 /* MasterViewController.xib */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -209,7 +201,6 @@
 			files = (
 				A6E6633A1A2F364400EAA470 /* MainMenu.xib in Resources */,
 				A6E663621A2F5F7700EAA470 /* Image.xcassets in Resources */,
-				9CAB72531A303561003426D4 /* MasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +220,6 @@
 			files = (
 				A6E6635A1A2F471D00EAA470 /* CalculatorWindow.m in Sources */,
 				A6E663321A2F364400EAA470 /* main.m in Sources */,
-				9CAB72521A303560003426D4 /* MasterViewController.m in Sources */,
 				A6E663301A2F364400EAA470 /* AppDelegate.m in Sources */,
 				A6E663351A2F364400EAA470 /* Calculator.xcdatamodeld in Sources */,
 			);
